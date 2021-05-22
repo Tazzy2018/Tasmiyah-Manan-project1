@@ -1,2 +1,621 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*blog page*/
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+html {
+  font-size: 125%;
+}
+
+.wrapper {
+  max-width: 1080px;
+}
+
+header {
+  background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../project-1-under-the-sea/under-the-sea-assets/header-image.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 70vh;
+}
+
+h1 {
+  color: white;
+  margin-left: 7%;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.menu li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.menu a:hover {
+  color: #86E0F9;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  list-style: none;
+  margin-right: 10%;
+  color: white;
+}
+
+.fish-parent {
+  position: relative;
+}
+
+.fish-test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.fish-box {
+  position: absolute;
+  margin-top: -30%;
+  width: 35%;
+  height: auto;
+}
+
+.undersea {
+  background: #0c1423;
+  padding: 100px 0;
+}
+
+.button1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button1 a {
+  color: black;
+  background: #86E0F9;
+  padding: 7px;
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.undersea p {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.greenbox {
+  background: #0F614E;
+  padding: 100px 0;
+}
+
+.greenbox1 {
+  background: #0F614E;
+  padding: 40px 0;
+}
+
+.flex1 {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 30%;
+  margin-left: 60%;
+  margin-top: -3%;
+  color: white;
+}
+
+.button3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button3 a {
+  color: white;
+  background: black;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.additions {
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.red-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.red-fish {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  margin-right: 45%;
+  margin-top: -8%;
+  -webkit-box-shadow: 12px 12px 2px 1px #86E0F9;
+          box-shadow: 12px 12px 2px 1px #86E0F9;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.flex2 {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: -1%;
+  color: white;
+}
+
+.button4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button4 a {
+  color: white;
+  background: black;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.nemo {
+  position: relative;
+}
+
+.nemo-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nemo-fish {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 7%;
+  -webkit-box-shadow: -16px 18px 2px #86E0F9;
+          box-shadow: -16px 18px 2px #86E0F9;
+}
+
+.info {
+  background: #0c1423;
+  padding: 100px 0;
+}
+
+.info .wrapper {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr 8fr;
+  grid-template-rows: 2fr 2fr;
+  padding-top: -7px;
+  margin-left: 3%;
+  color: white;
+}
+
+.info .wrapper i {
+  color: #86E0F9;
+  display: inline-block;
+}
+
+.info .wrapper a {
+  color: white;
+}
+
+.shark {
+  width: 100%;
+  display: inline-block;
+}
+
+.month-profile {
+  background: #0c1423;
+  padding: 100px 0;
+}
+
+.month-profile p {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  width: 50%;
+  margin-left: 40%;
+}
+
+.button2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button2 a {
+  color: black;
+  background: #86E0F9;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.month-profile h2 {
+  margin-left: -7%;
+}
+
+.small-fishsec {
+  position: relative;
+}
+
+.small-fishdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.small-fish {
+  position: absolute;
+  margin-right: 65%;
+  width: 20%;
+  height: auto;
+  -webkit-box-shadow: 12px 12px 1px 2px #86E0F9;
+          box-shadow: 12px 12px 1px 2px #86E0F9;
+}
+
+.gallery-images {
+  background: #0F614E;
+  padding: 100px 0;
+}
+
+.pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline;
+}
+
+footer {
+  background: #86E0F9;
+  padding: 1px 0;
+  text-align: center;
+}
+
+/*blog css*/
+.blog-page {
+  background-image: url(../project-1-under-the-sea/under-the-sea-assets/blog-header.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 70vh;
+}
