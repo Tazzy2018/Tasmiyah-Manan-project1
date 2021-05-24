@@ -13,7 +13,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 
 @import 'variable';
-@import 'layout';
+@import 'blog';
+@import 'contact';
 
 
 // html {
@@ -61,6 +62,9 @@ header {
         h1 {
             color: white;
             margin-left: 7%;
+            font-family: 'Barlow',
+            sans-serif;
+            font-size: 80px;
         }
         
 
@@ -76,6 +80,9 @@ header {
             justify-content: space-between;
             align-items: center;
             color: white;
+            text-decoration: none;
+            font-family: 'Barlow',
+            sans-serif;
         }
 
         .menu a:hover {
@@ -110,43 +117,10 @@ header {
             position: absolute;
             margin-top: -30%;
             width: 35%;
-            height: auto
+            height: auto;
             
         }
     
-
-
-
-
-
-// .header-container {
-//     position: relative;
-//     color: white;
-//     background-size: center;
-//     z-index: -6;
-//     }
-
-
-
-
-
-
-//          menu {
-//             display: flex;
-//              justify-content: center;
-//         }
-
-    //    a {
-    //        text-decoration: none;
-    //        color: red
-    //    }
-
-    //    .header-container {
-    //        display: flex;
-    //        flex-direction: row;
-    //        height: 100%;
-    //        color:red;
-    //        }
 
     
     
@@ -170,6 +144,8 @@ header {
             background: $babyblue; 
             padding: 7px;
             text-decoration: none;
+            font-family: 'Barlow',
+            sans-serif;
             
         }
 
@@ -178,12 +154,16 @@ header {
         color: white;
         display:flex;
         justify-content: center;
+        font-family: 'Barlow',
+        sans-serif;
     }
 
     .undersea p {
         color: white;
         display: flex;
         justify-content: center;
+        font-family: 'Lato',
+        sans-serif;
 
     }
 
@@ -211,6 +191,11 @@ header {
         color: white;
     }
 
+    .flex1 p {
+        font-family: 'Lato',
+        sans-serif;
+    }
+
     .button3 {
         display: flex;
         justify-content: center;
@@ -222,6 +207,8 @@ header {
         background: black;
         padding: 7px;
         text-decoration: none;
+        font-family: 'Barlow',
+        sans-serif;
 
     }
 
@@ -261,6 +248,11 @@ header {
 
     }
 
+    .flex2 p {
+        font-family: 'Lato',
+        sans-serif;
+    }
+
     .button4 {
         display: flex;
         justify-content: center;
@@ -272,6 +264,8 @@ header {
         background: black;
         padding: 7px;
         text-decoration: none;
+        font-family: 'Barlow',
+        sans-serif;
 
     }
 
@@ -293,9 +287,6 @@ header {
         margin-top: 7%;
         box-shadow: -16px 18px 2px #86E0F9;
         
-        
-        
-
     }
 
 
@@ -326,7 +317,14 @@ header {
 
     .info .wrapper a {
         color: white;
+        font-family: 'Barlow',
+        sans-serif;
 
+    }
+
+    .info .wrapper p {
+        font-family: 'Lato',
+        sans-serif;
     }
     
 
@@ -352,8 +350,9 @@ header {
         text-align: left;
         width: 50%;
         margin-left: 40%;
+        font-family: 'Lato',
+        sans-serif;
 
-    
     }
 
 
@@ -368,6 +367,8 @@ header {
         background: $babyblue;
         padding: 7px;
         text-decoration: none;
+        font-family: 'Barlow',
+        sans-serif;
 
     }
 
@@ -421,17 +422,13 @@ header {
         text-align: center;
 
     }
+
+
+
     
 
-    /*blog css*/
-
-    .blog-page {
-        background-image: url(../project-1-under-the-sea/under-the-sea-assets/blog-header.jpg);
-        background-size: cover;
-        max-width: 100%;
-        height: 70vh;
-    }
-
+    
+    
     
 
 
