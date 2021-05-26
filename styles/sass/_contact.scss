@@ -33,6 +33,11 @@ header.contact-page {
 
 }
 
+.contact-page h1 {
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
 .contact-details {
     background: $navyblock;
     padding: 100px 0;
@@ -40,34 +45,38 @@ header.contact-page {
 }
 
 
-.green-box2 {
+.green-box4 {
     background: $greenblock;
-    width: 55%;
+    width: 60%;
     margin-left: 30%;
     overflow-y: hidden;
     margin-top: -20%;
     box-shadow: -22px 25px 1px #86E0F9;
-    padding: 20%;
+    padding: 5%;
+    
+    
 
 }
 
 
-.green-box2 {
+.green-box3 {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    
     
 }
+
+// .form-section2 {
+//     position: absolute;
+    
+// }
+
+
+
 
 .form-section2 {
     position: absolute;
-    
-}
-
-
-
-
-.form-section2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100px 200px 50px;
@@ -75,8 +84,10 @@ header.contact-page {
     width: 50%;
     border: none;
     outline: none;
-    margin-right: 140%;
-    margin-top: -50%;
+    // margin-right: 80%;
+    // margin-top: -50%;
+    
+    
     
     
 
@@ -104,15 +115,19 @@ header.contact-page {
 }
 
 
-button .submit {
+
+
+button .contact-submit2 {
     background: $navyblock;
     grid-column-end: 2;
     height: 50px;
     width: 40%;
     color: white;
-    width: 220%;
+    width: 215%;
     
 }
+
+
 
 .social-contacts {
     position: relative;
@@ -146,4 +161,56 @@ footer {
     padding: 1px 0;
     text-align: center;
 
+}
+
+@media screen and (max-width: 700px) {
+    
+
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 60px;
+    }
+
+    .social-media p {
+        font-size: 14px;
+
+    }
+
+    .social-contacts h4 {
+        font-size: 16px;
+    }
+
+    /* tablets and mobile for 660px or less*/
+
+    @media screen and (max-width: 660px) {
+        .menu ul {
+            float: left;
+            display: block;
+            width: 150%;
+        }
+
+        h1 {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 40px;
+        }
+
+        .social-media p {
+            font-size: 12px;
+
+        }
+
+        .social-contacts h4 {
+            font-size: 14px;
+        }
+
+        .green-box4 {
+            box-shadow: -18px 20px 1px #86E0F9;
+
+        }
+
+
+
+}
 }

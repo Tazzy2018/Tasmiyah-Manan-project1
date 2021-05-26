@@ -41,6 +41,12 @@ header.blog-page {
     
 }
 
+.blog-page h1 {
+    margin-left: 50%;
+    margin-top: 3%;
+    
+}
+
 .about-undersea {
     background: $navyblock;
     padding: 100px 0;
@@ -95,7 +101,7 @@ header.blog-page {
     position: absolute;
     padding: 10%;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Lato',
     sans-serif;
     
@@ -244,3 +250,26 @@ h3 {
         text-align: center;
 
     }
+
+    @media (max-width: 800px) {
+        .form {
+            margin-right: 40%;
+            
+    }
+
+    @media (max-width: 660px) {
+        .girl {
+            display: flex;
+            flex-wrap: wrap;
+
+            .form {
+                width: 20%;
+            }
+
+            .button {
+                margin-right: -10%
+            }
+        }
+    }
+
+}

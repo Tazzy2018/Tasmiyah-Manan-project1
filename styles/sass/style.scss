@@ -425,10 +425,65 @@ header {
 
 
 
-    
+
+
+    @media screen and (max-width: 700px) {
+        // .menu ul {
+        //     float: left;
+        //     display: block;
+        //     width: 150%;
+        // }
+
+        h1 {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 60px;
+        }
+
+        .undersea {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
+
+
+    }
+
+    /* tablets and mobile for 660px or less*/
+
+    @media screen and (max-width: 660px) {
+        .menu ul {
+            float: left;
+            display: block;
+            width: 150%;
+        }
+
+        h1 {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 40px;
+        }
+
+        // .greenbox1 {
+        //     display: flex;
+        //     flex-wrap: wrap;
+        // }
 
     
-    
+            .shark {
+                width: 50%;
+                
+            }
+
+            .month-profile h2 {
+                margin-left: 1%;
+            }
+
+
+
+    }
     
 
 
