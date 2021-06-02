@@ -61,7 +61,7 @@ header {
 
         h1 {
             color: white;
-            margin-left: 7%;
+            margin: 0px 7%;
             font-family: 'Barlow',
             sans-serif;
             font-size: 80px;
@@ -99,6 +99,64 @@ header {
             color: white;
 
         }
+
+        .burger-menu {
+            margin: 0;
+            margin-left: 15px;
+            padding: 0;
+            float: left;
+            transition: opacity 7s;
+            display: none;
+        }
+
+        .burger-menu .hover {
+            cursor: pointer;
+            opacity: .5;
+        }
+
+        .burger-menu .line {
+            width: 60px;
+            height: 5px;
+            margin: 8px auto;
+            transition: all 0.3s ease-in-out;
+            border-radius: 5px;
+        }
+
+
+        .burger-menu .line:nth-child(1) {
+            background-color: $babyblue;
+        }
+
+        .burger-menu .line:nth-child(2) {
+            background-color: white;
+        }
+
+        .burger-menu .line:nth-child(3) {
+            background-color: $babyblue;
+        }
+
+        .burger-menu.isactive .line:nth-child(2) {
+            opacity: 0;
+        }
+
+        .burger-menu.isactive .line:nth-child(1) {
+            transform: translateY(13px) rotate(45deg);
+        }
+
+        .burger-menu.isactive .line:nth-child(3) {
+            transform: translateY(-13px) rotate(-45deg);
+        }
+
+        .menu {
+            transition: all 2s ease-in-out;
+        }
+
+        .menu.active {
+            display: block;
+            animation: fade .5s;
+        }
+
+
 
 
 
@@ -328,13 +386,12 @@ header {
     }
     
 
+   
     
     .shark {
-        width: 100%;
-        display: inline-block
-        
-        
-        
+         width: 100%;
+         display: inline-block;
+
     }
 
     .month-profile {
@@ -428,11 +485,11 @@ header {
 
 
     @media screen and (max-width: 700px) {
-        // .menu ul {
-        //     float: left;
-        //     display: block;
-        //     width: 150%;
-        // }
+        .menu ul {
+            float: left;
+            display: block;
+            width: 150%;
+        }
 
         h1 {
             display: flex;
@@ -449,6 +506,7 @@ header {
 
 
 
+
     }
 
     /* tablets and mobile for 660px or less*/
@@ -459,6 +517,60 @@ header {
             display: block;
             width: 150%;
         }
+
+        .burger-menu {
+            float: right;
+            display: block;
+        }
+
+    
+
+        .menu {
+            background-color: $navyblock;
+            width: 100%;
+            height: 60vh;
+            display: none;
+        }
+
+        .menu-ul {
+            overflow: hidden;
+            list-style-type: none;
+            padding-top: 3%;
+            padding-left: 30%;
+            padding-right: 3%;
+            padding-bottom: 3%;
+            margin: 0;
+        }
+
+        .menu li {
+            display: block;
+            margin: 0;
+            padding: 14px 20px;
+            width: 100%;
+            transition: background-color .5s;
+        }
+
+        .menu li:hover {
+            cursor: pointer;
+            // background-color: #ce3939;
+        }
+
+
+        .menu li a {
+            // color: #d3e3e3;
+            text-decoration: none;
+            padding: 14px 16px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1em;
+            transition: all 1s;
+        }
+
+        .menu li:hover {
+            cursor: pointer;
+            background-color: $greenblock;
+            letter-spacing: 0px;
+        }
+
 
         h1 {
             display: flex;
@@ -482,9 +594,4 @@ header {
             }
 
 
-
-    }
-    
-
-
-
+            };

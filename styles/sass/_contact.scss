@@ -35,7 +35,8 @@ header.contact-page {
 
 .contact-page h1 {
     margin-left: 30%;
-    margin-top: 8%;
+    margin-top: 0px;
+    
 }
 
 .contact-details {
@@ -73,27 +74,22 @@ header.contact-page {
 // }
 
 
+    .form-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px 200px 50px;
+        gap: 30px;
+        width: 50px;
+        border: none;
+        outline: none;
+        margin-left: 0%;
+    }
 
-
-.form-section2 {
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 200px 50px;
-    gap: 30px;
-    width: 50%;
-    border: none;
-    outline: none;
-    // margin-right: 80%;
-    // margin-top: -50%;
-    
-    
     
     
 
-}
 
-.form-section2 * {
+.form-section * {
     border: none;
     outline: none;
 }
@@ -117,11 +113,10 @@ header.contact-page {
 
 
 
-button .contact-submit2 {
+    button .contact-submit {
     background: $navyblock;
     grid-column-end: 2;
     height: 50px;
-    width: 40%;
     color: white;
     width: 215%;
     
